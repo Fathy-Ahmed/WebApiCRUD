@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiCRUD.DTO;
 using WebApiCRUD.Models;
@@ -24,6 +25,7 @@ namespace WebApiCRUD.Controllers
         }
         //----------------------------------------------------------------------------------------------------
         [HttpGet("C")]
+        [Authorize]
         public async Task<ActionResult<List<CategoryWithProductCountDTO>>> GetCategoriesWithProductCount()
         {
             IEnumerable<Category> Categories = (await _unitOfWork.Category.GetAll(IncludeWord: "Products"));

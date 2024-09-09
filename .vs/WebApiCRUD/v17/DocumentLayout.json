@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\dto\\productwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\dto\\productwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiCRUD\\appsettings.json",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\appsettings.json",
+              "RelativeToolTip": "WebApiCRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T03:44:34.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Program.cs",
+              "RelativeToolTip": "WebApiCRUD\\Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAiwH4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T03:16:26.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApiCRUD\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAwwFcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T00:39:57.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApiCRUD\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwBQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T03:37:11.638Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -47,55 +99,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Models\\Product.cs",
-              "RelativeToolTip": "WebApiCRUD\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:37:55.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductWithCategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\DTO\\ProductWithCategoryDTO.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\DTO\\ProductWithCategoryDTO.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\DTO\\ProductWithCategoryDTO.cs",
-              "RelativeToolTip": "WebApiCRUD\\DTO\\ProductWithCategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:37:09.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "WebApiCRUD\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAADwv1EAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T17:34:56.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebApiCRUD\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:33:20.292Z",
-              "EditorCaption": ""
             }
           ]
         }
