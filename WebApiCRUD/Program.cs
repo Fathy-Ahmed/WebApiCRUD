@@ -1,15 +1,17 @@
-﻿
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using WebApiCRUD.DataAccess.Data;
 using WebApiCRUD.DataAccess.Implementation;
+using WebApiCRUD.Helper;
 using WebApiCRUD.Models;
 using WebApiCRUD.Repositories;
+using WebApiCRUD.Services;
 
 namespace WebApiCRUD
 {
@@ -59,11 +61,18 @@ namespace WebApiCRUD
                     ValidateAudience = true,
                     ValidAudience= builder.Configuration["JWT:AudienceIP"],
 
+                    ValidateLifetime = true,
+
+                    ValidateIssuerSigningKey = true,
                     IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecritKey"]))
 
+                    
                 };
 
             });
+            //----------------------------------------------------------------------------------------------
+            // map the jwt in appsettings to JWT class
+            builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
             //----------------------------------------------------------------------------------------------
             builder.Services.AddCors(op =>
             {
@@ -79,6 +88,7 @@ namespace WebApiCRUD
 
            //----------------------------------------------------------------------------------------------
             builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
+            builder.Services.AddScoped<IAuthServices, AuthServices>();
 
             //----------------------------------------------------------------------------------------------
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -137,6 +147,7 @@ namespace WebApiCRUD
 
             app.UseCors("MyPolicy");
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

@@ -3,20 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\models\\addrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\models\\addrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|c:\\users\\fathy\\source\\repos\\webapicrud\\webapicrud\\services\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8EFC90-458C-40C1-81D0-58F4F63A8803}|WebApiCRUD\\WebApiCRUD.csproj|solutionrelative:webapicrud\\services\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./WebApiCRUD/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +29,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiCRUD\\appsettings.json",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\appsettings.json",
-              "RelativeToolTip": "WebApiCRUD\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-09T03:44:34.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Program.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\Program.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Program.cs",
-              "RelativeToolTip": "WebApiCRUD\\Program.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAiwH4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T03:16:26.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApiCRUD\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAwwFcAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T00:39:57.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "WebApiCRUD\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAmwBQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T03:37:11.638Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -99,6 +50,68 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRoleModel.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Models\\AddRoleModel.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Models\\AddRoleModel.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Models\\AddRoleModel.cs",
+              "RelativeToolTip": "WebApiCRUD\\Models\\AddRoleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:11:12.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Services\\IAuthServices.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Services\\IAuthServices.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Services\\IAuthServices.cs",
+              "RelativeToolTip": "WebApiCRUD\\Services\\IAuthServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:34:03.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Services\\AuthServices.cs",
+              "RelativeToolTip": "WebApiCRUD\\Services\\AuthServices.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:27:51.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApiCRUD\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\fathy\\source\\repos\\WebApiCRUD\\WebApiCRUD\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApiCRUD\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAUwIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:47:29.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./WebApiCRUD/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-10T22:49:13.992Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -7,6 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using WebApiCRUD.DTO;
 using WebApiCRUD.Models;
+using WebApiCRUD.Services;
 
 namespace WebApiCRUD.Controllers
 {
@@ -16,16 +17,19 @@ namespace WebApiCRUD.Controllers
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly IConfiguration config;
+        private readonly IAuthServices _authServices;
 
-        public AccountController(UserManager<ApplicationUser> userManager,IConfiguration config)
+        public AccountController
+            (UserManager<ApplicationUser> userManager,IConfiguration config,IAuthServices authServices)
         {
             this.userManager = userManager;
             this.config = config;
+            this._authServices = authServices;
         }
 
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register(RegisterDTO registerDTO)
+        [HttpPost("register1")]
+        public async Task<IActionResult> Register1(RegisterDTO registerDTO)
         {
             if (ModelState.IsValid)
             {
@@ -50,9 +54,21 @@ namespace WebApiCRUD.Controllers
             }
             return BadRequest(ModelState);
         }
+        //---------------------------------------------------------------------------
+        [HttpPost("register2")]
+        public async Task<IActionResult> Register2([FromBody]RegisterModel model)
+        {
+            if(!ModelState.IsValid) 
+                return BadRequest(ModelState);
+            var result=await _authServices.RegisterAsync(model);
+            if (!result.IsAuthenticated)
+                return BadRequest(result.Message);
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginDTO loginDTO)
+            return Ok(result);
+        }
+        //---------------------------------------------------------------------------
+        [HttpPost("login1")]
+        public async Task<IActionResult> Login1(LoginDTO loginDTO)
         {
             if (ModelState.IsValid)
             {
@@ -107,6 +123,31 @@ namespace WebApiCRUD.Controllers
             }
             return BadRequest(ModelState);
         }
+        //---------------------------------------------------------------------------
+        [HttpPost("login2")]
+        public async Task<IActionResult> Login2([FromBody] TokenRequstModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var result = await _authServices.GetTokenAsync(model);
+            if (!result.IsAuthenticated)
+                return BadRequest(result.Message);
+
+            return Ok(result);
+        }
+        //---------------------------------------------------------------------------
+        [HttpPost("login2")]
+        public async Task<IActionResult> AddUsertoRole([FromBody] AddRoleModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var result = await _authServices.AddRoleAsync(model);
+            if (!string.IsNullOrEmpty(result))
+                return BadRequest(result);
+
+            return Ok(model);
+        }
+        //---------------------------------------------------------------------------
 
     }
 }
